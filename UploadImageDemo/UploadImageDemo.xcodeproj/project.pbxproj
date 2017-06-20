@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1544BC618049E307010E42F2 /* libPods-UploadImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 648219B2FABE03895B8432C9 /* libPods-UploadImageDemo.a */; };
+		AB45007E1EF8C10000390C16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45007D1EF8C10000390C16 /* main.m */; };
+		AB4500811EF8C10000390C16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4500801EF8C10000390C16 /* AppDelegate.m */; };
+		AB4500841EF8C10000390C16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4500831EF8C10000390C16 /* ViewController.m */; };
+		AB4500871EF8C10000390C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4500851EF8C10000390C16 /* Main.storyboard */; };
+		AB4500891EF8C10000390C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4500881EF8C10000390C16 /* Assets.xcassets */; };
+		AB45008C1EF8C10000390C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB45008A1EF8C10000390C16 /* LaunchScreen.storyboard */; };
+		AB4500951EF8C1F700390C16 /* UploadImageHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4500941EF8C1F700390C16 /* UploadImageHandle.m */; };
+		AB4500991EF8C2E700390C16 /* CToast.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4500981EF8C2E700390C16 /* CToast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		623ECC03B277F1F9B98B2B7A /* Pods-UploadImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UploadImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UploadImageDemo/Pods-UploadImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		648219B2FABE03895B8432C9 /* libPods-UploadImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UploadImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4500791EF8C10000390C16 /* UploadImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UploadImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB45007D1EF8C10000390C16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB45007F1EF8C10000390C16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB4500801EF8C10000390C16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB4500821EF8C10000390C16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB4500831EF8C10000390C16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB4500861EF8C10000390C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB4500881EF8C10000390C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB45008B1EF8C10000390C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB45008D1EF8C10000390C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB4500931EF8C1F700390C16 /* UploadImageHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadImageHandle.h; sourceTree = "<group>"; };
+		AB4500941EF8C1F700390C16 /* UploadImageHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadImageHandle.m; sourceTree = "<group>"; };
+		AB4500961EF8C20900390C16 /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySingleton.h; sourceTree = "<group>"; };
+		AB4500971EF8C2E700390C16 /* CToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CToast.h; sourceTree = "<group>"; };
+		AB4500981EF8C2E700390C16 /* CToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CToast.m; sourceTree = "<group>"; };
+		D88813973AEEC22987037A38 /* Pods-UploadImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UploadImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UploadImageDemo/Pods-UploadImageDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB4500761EF8C10000390C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1544BC618049E307010E42F2 /* libPods-UploadImageDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44A49E2DF631482D97417F27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				623ECC03B277F1F9B98B2B7A /* Pods-UploadImageDemo.debug.xcconfig */,
+				D88813973AEEC22987037A38 /* Pods-UploadImageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5335089C5766E78497EC1F86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				648219B2FABE03895B8432C9 /* libPods-UploadImageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB4500701EF8C10000390C16 = {
+			isa = PBXGroup;
+			children = (
+				AB4500971EF8C2E700390C16 /* CToast.h */,
+				AB4500981EF8C2E700390C16 /* CToast.m */,
+				AB4500961EF8C20900390C16 /* MySingleton.h */,
+				AB4500931EF8C1F700390C16 /* UploadImageHandle.h */,
+				AB4500941EF8C1F700390C16 /* UploadImageHandle.m */,
+				AB45007B1EF8C10000390C16 /* UploadImageDemo */,
+				AB45007A1EF8C10000390C16 /* Products */,
+				44A49E2DF631482D97417F27 /* Pods */,
+				5335089C5766E78497EC1F86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB45007A1EF8C10000390C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB4500791EF8C10000390C16 /* UploadImageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB45007B1EF8C10000390C16 /* UploadImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB45007F1EF8C10000390C16 /* AppDelegate.h */,
+				AB4500801EF8C10000390C16 /* AppDelegate.m */,
+				AB4500821EF8C10000390C16 /* ViewController.h */,
+				AB4500831EF8C10000390C16 /* ViewController.m */,
+				AB4500851EF8C10000390C16 /* Main.storyboard */,
+				AB4500881EF8C10000390C16 /* Assets.xcassets */,
+				AB45008A1EF8C10000390C16 /* LaunchScreen.storyboard */,
+				AB45008D1EF8C10000390C16 /* Info.plist */,
+				AB45007C1EF8C10000390C16 /* Supporting Files */,
+			);
+			path = UploadImageDemo;
+			sourceTree = "<group>";
+		};
+		AB45007C1EF8C10000390C16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB45007D1EF8C10000390C16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB4500781EF8C10000390C16 /* UploadImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB4500901EF8C10000390C16 /* Build configuration list for PBXNativeTarget "UploadImageDemo" */;
+			buildPhases = (
+				661D216B6A95AEA1B4B6A981 /* [CP] Check Pods Manifest.lock */,
+				AB4500751EF8C10000390C16 /* Sources */,
+				AB4500761EF8C10000390C16 /* Frameworks */,
+				AB4500771EF8C10000390C16 /* Resources */,
+				0432D0CCC4196153FEEA3532 /* [CP] Embed Pods Frameworks */,
+				2C3B7230E8C339F032A667A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UploadImageDemo;
+			productName = UploadImageDemo;
+			productReference = AB4500791EF8C10000390C16 /* UploadImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB4500711EF8C10000390C16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lei;
+				TargetAttributes = {
+					AB4500781EF8C10000390C16 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AV98RY693Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB4500741EF8C10000390C16 /* Build configuration list for PBXProject "UploadImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB4500701EF8C10000390C16;
+			productRefGroup = AB45007A1EF8C10000390C16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB4500781EF8C10000390C16 /* UploadImageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB4500771EF8C10000390C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB45008C1EF8C10000390C16 /* LaunchScreen.storyboard in Resources */,
+				AB4500891EF8C10000390C16 /* Assets.xcassets in Resources */,
+				AB4500871EF8C10000390C16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0432D0CCC4196153FEEA3532 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UploadImageDemo/Pods-UploadImageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C3B7230E8C339F032A667A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UploadImageDemo/Pods-UploadImageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		661D216B6A95AEA1B4B6A981 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB4500751EF8C10000390C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4500841EF8C10000390C16 /* ViewController.m in Sources */,
+				AB4500811EF8C10000390C16 /* AppDelegate.m in Sources */,
+				AB4500951EF8C1F700390C16 /* UploadImageHandle.m in Sources */,
+				AB45007E1EF8C10000390C16 /* main.m in Sources */,
+				AB4500991EF8C2E700390C16 /* CToast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB4500851EF8C10000390C16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB4500861EF8C10000390C16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB45008A1EF8C10000390C16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB45008B1EF8C10000390C16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB45008E1EF8C10000390C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB45008F1EF8C10000390C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB4500911EF8C10000390C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 623ECC03B277F1F9B98B2B7A /* Pods-UploadImageDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AV98RY693Y;
+				INFOPLIST_FILE = UploadImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lei.UploadImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB4500921EF8C10000390C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88813973AEEC22987037A38 /* Pods-UploadImageDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AV98RY693Y;
+				INFOPLIST_FILE = UploadImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lei.UploadImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB4500741EF8C10000390C16 /* Build configuration list for PBXProject "UploadImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB45008E1EF8C10000390C16 /* Debug */,
+				AB45008F1EF8C10000390C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB4500901EF8C10000390C16 /* Build configuration list for PBXNativeTarget "UploadImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4500911EF8C10000390C16 /* Debug */,
+				AB4500921EF8C10000390C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB4500711EF8C10000390C16 /* Project object */;
+}

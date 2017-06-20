@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F397F62E76BB559F4513D85F1EA93D /* Pods-UploadImageDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E71D7CB88BD0DD5471552BD2C32C5A9 /* Pods-UploadImageDemo-dummy.m */; };
+		1B356E9C937C53C67904FAACE2370C8A /* ZYQAssetPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A8D47DB694279788F7FF3F86CE64E4 /* ZYQAssetPickerController-dummy.m */; };
+		3BD6B30A029B60C84D0018AAC3E5D02E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698E08BEB47B12A72ABA5012F10C2571 /* AssetsLibrary.framework */; };
+		3BF2E2240C7A570FFC59D1BC50F8F7A1 /* ZYQAssetPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD637FE52B9EF9A98EB24D195865131 /* ZYQAssetPickerController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C77B9510177012F8B03AE7DBDC2B469F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FB991D09F47B92946AC1DAF44B174C /* Foundation.framework */; };
+		D0D772108FFC2B2702E3C4B4CE585732 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FB991D09F47B92946AC1DAF44B174C /* Foundation.framework */; };
+		D1718181F81F9D3F857693F4ADACACAA /* ZYQAssetPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 61250ADC695771C5F949A0981FB9378A /* ZYQAssetPickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCFAED2C92693E6C0044FC888C70D4C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2539C25F714CBEACE67714DA8A81443;
+			remoteInfo = ZYQAssetPickerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14E4AC0FD87A01F77A8EC651816AF1C5 /* Pods-UploadImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UploadImageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		17A8D47DB694279788F7FF3F86CE64E4 /* ZYQAssetPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYQAssetPickerController-dummy.m"; sourceTree = "<group>"; };
+		1AE904B2444AFD922DDCC3E80CDB4F4C /* Pods-UploadImageDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UploadImageDemo-frameworks.sh"; sourceTree = "<group>"; };
+		3E71D7CB88BD0DD5471552BD2C32C5A9 /* Pods-UploadImageDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UploadImageDemo-dummy.m"; sourceTree = "<group>"; };
+		43C83E9B6C12CE7EDB95E00AC3F65F72 /* ZYQAssetPickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYQAssetPickerController.xcconfig; sourceTree = "<group>"; };
+		49EAF85CDA3AB6C781EE162685466AC5 /* Pods-UploadImageDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UploadImageDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		50F15FA7376685D764ED5B4AB535EDAB /* libZYQAssetPickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZYQAssetPickerController.a; path = libZYQAssetPickerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		61250ADC695771C5F949A0981FB9378A /* ZYQAssetPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZYQAssetPickerController.h; path = ZYQAssetPickerController/ZYQAssetPickerController.h; sourceTree = "<group>"; };
+		698E08BEB47B12A72ABA5012F10C2571 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		811F0492D59A0723C730BA8C3B5D74B0 /* Pods-UploadImageDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UploadImageDemo-resources.sh"; sourceTree = "<group>"; };
+		8AD637FE52B9EF9A98EB24D195865131 /* ZYQAssetPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZYQAssetPickerController.m; path = ZYQAssetPickerController/ZYQAssetPickerController.m; sourceTree = "<group>"; };
+		90FB991D09F47B92946AC1DAF44B174C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6C1F9FE2A98DAB6EA7727BE00BF7C48 /* Pods-UploadImageDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UploadImageDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B791212A4EEC1202CACBE526AFE7C786 /* ZYQAssetPicker.Bundle */ = {isa = PBXFileReference; includeInIndex = 1; name = ZYQAssetPicker.Bundle; path = ZYQAssetPickerController/ZYQAssetPicker.Bundle; sourceTree = "<group>"; };
+		D0CE9B36A01E2C3179BBBB32E74428C3 /* ZYQAssetPickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYQAssetPickerController-prefix.pch"; sourceTree = "<group>"; };
+		E8F963647D4614BD776EB55DD39D82B5 /* libPods-UploadImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-UploadImageDemo.a"; path = "libPods-UploadImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D818CFCD7A89E07ED180ECBD4126D6 /* Pods-UploadImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UploadImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EE522FA83389569C55ADD58C929D64D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD6B30A029B60C84D0018AAC3E5D02E /* AssetsLibrary.framework in Frameworks */,
+				D0D772108FFC2B2702E3C4B4CE585732 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D57EEFA2BF8F9573F07F6F42AED8E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77B9510177012F8B03AE7DBDC2B469F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D919D45F80F66FB783BD372530CBCC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43C83E9B6C12CE7EDB95E00AC3F65F72 /* ZYQAssetPickerController.xcconfig */,
+				17A8D47DB694279788F7FF3F86CE64E4 /* ZYQAssetPickerController-dummy.m */,
+				D0CE9B36A01E2C3179BBBB32E74428C3 /* ZYQAssetPickerController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZYQAssetPickerController";
+			sourceTree = "<group>";
+		};
+		1AD39E83CB947E3C960F689A65361DC2 /* ZYQAssetPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				61250ADC695771C5F949A0981FB9378A /* ZYQAssetPickerController.h */,
+				8AD637FE52B9EF9A98EB24D195865131 /* ZYQAssetPickerController.m */,
+				6CA51F164656643CC892A9878AA78A92 /* Resources */,
+				11D919D45F80F66FB783BD372530CBCC /* Support Files */,
+			);
+			name = ZYQAssetPickerController;
+			path = ZYQAssetPickerController;
+			sourceTree = "<group>";
+		};
+		2F18B66593A6D2D7B62D8CCCB95305C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8F963647D4614BD776EB55DD39D82B5 /* libPods-UploadImageDemo.a */,
+				50F15FA7376685D764ED5B4AB535EDAB /* libZYQAssetPickerController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7F66D98BD57F59F7C602B7433EA99F4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F12186CDCC538164EDE030D3D1B3447 /* Pods-UploadImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B6C1F9FE2A98DAB6EA7727BE00BF7C48 /* Pods-UploadImageDemo-acknowledgements.markdown */,
+				49EAF85CDA3AB6C781EE162685466AC5 /* Pods-UploadImageDemo-acknowledgements.plist */,
+				3E71D7CB88BD0DD5471552BD2C32C5A9 /* Pods-UploadImageDemo-dummy.m */,
+				1AE904B2444AFD922DDCC3E80CDB4F4C /* Pods-UploadImageDemo-frameworks.sh */,
+				811F0492D59A0723C730BA8C3B5D74B0 /* Pods-UploadImageDemo-resources.sh */,
+				F0D818CFCD7A89E07ED180ECBD4126D6 /* Pods-UploadImageDemo.debug.xcconfig */,
+				14E4AC0FD87A01F77A8EC651816AF1C5 /* Pods-UploadImageDemo.release.xcconfig */,
+			);
+			name = "Pods-UploadImageDemo";
+			path = "Target Support Files/Pods-UploadImageDemo";
+			sourceTree = "<group>";
+		};
+		6CA51F164656643CC892A9878AA78A92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B791212A4EEC1202CACBE526AFE7C786 /* ZYQAssetPicker.Bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D3DDA3DD312378C15F51160921A60E99 /* Pods */,
+				2F18B66593A6D2D7B62D8CCCB95305C6 /* Products */,
+				F0A9A5D822E2D7F9DFCE18C037E22D4F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C7F66D98BD57F59F7C602B7433EA99F4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				698E08BEB47B12A72ABA5012F10C2571 /* AssetsLibrary.framework */,
+				90FB991D09F47B92946AC1DAF44B174C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D3DDA3DD312378C15F51160921A60E99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AD39E83CB947E3C960F689A65361DC2 /* ZYQAssetPickerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0A9A5D822E2D7F9DFCE18C037E22D4F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F12186CDCC538164EDE030D3D1B3447 /* Pods-UploadImageDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		92F5A691ED7D70BA0C7AF7D915EDE20C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1718181F81F9D3F857693F4ADACACAA /* ZYQAssetPickerController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E0EF48AE72827E4D64F88D82790CA91A /* Pods-UploadImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19E4583C55EF975B98E803DEF48DFAE /* Build configuration list for PBXNativeTarget "Pods-UploadImageDemo" */;
+			buildPhases = (
+				4F50B88BBA07FB528842CBC60F9035E9 /* Sources */,
+				B9D57EEFA2BF8F9573F07F6F42AED8E3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D5C50F6F4C1A0274B0A430AEA9308FC /* PBXTargetDependency */,
+			);
+			name = "Pods-UploadImageDemo";
+			productName = "Pods-UploadImageDemo";
+			productReference = E8F963647D4614BD776EB55DD39D82B5 /* libPods-UploadImageDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E2539C25F714CBEACE67714DA8A81443 /* ZYQAssetPickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1A2662755398DF32161D7F5C2BDDA7 /* Build configuration list for PBXNativeTarget "ZYQAssetPickerController" */;
+			buildPhases = (
+				8838014C05D797D893754CD5A48CCFBD /* Sources */,
+				1EE522FA83389569C55ADD58C929D64D /* Frameworks */,
+				92F5A691ED7D70BA0C7AF7D915EDE20C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYQAssetPickerController;
+			productName = ZYQAssetPickerController;
+			productReference = 50F15FA7376685D764ED5B4AB535EDAB /* libZYQAssetPickerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2F18B66593A6D2D7B62D8CCCB95305C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0EF48AE72827E4D64F88D82790CA91A /* Pods-UploadImageDemo */,
+				E2539C25F714CBEACE67714DA8A81443 /* ZYQAssetPickerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F50B88BBA07FB528842CBC60F9035E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F397F62E76BB559F4513D85F1EA93D /* Pods-UploadImageDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8838014C05D797D893754CD5A48CCFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B356E9C937C53C67904FAACE2370C8A /* ZYQAssetPickerController-dummy.m in Sources */,
+				3BF2E2240C7A570FFC59D1BC50F8F7A1 /* ZYQAssetPickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D5C50F6F4C1A0274B0A430AEA9308FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZYQAssetPickerController;
+			target = E2539C25F714CBEACE67714DA8A81443 /* ZYQAssetPickerController */;
+			targetProxy = CCFAED2C92693E6C0044FC888C70D4C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26AFF01BB3572B88CCF326A84AE30971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C83E9B6C12CE7EDB95E00AC3F65F72 /* ZYQAssetPickerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZYQAssetPickerController/ZYQAssetPickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4AE46654B263FC0502569D3F59F552AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D818CFCD7A89E07ED180ECBD4126D6 /* Pods-UploadImageDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E5D7BCC3717FB2485AF73D5203466892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E4AC0FD87A01F77A8EC651816AF1C5 /* Pods-UploadImageDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F70E4B94E8773F48B2818AF36DC82C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C83E9B6C12CE7EDB95E00AC3F65F72 /* ZYQAssetPickerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZYQAssetPickerController/ZYQAssetPickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1A2662755398DF32161D7F5C2BDDA7 /* Build configuration list for PBXNativeTarget "ZYQAssetPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70E4B94E8773F48B2818AF36DC82C1D /* Debug */,
+				26AFF01BB3572B88CCF326A84AE30971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19E4583C55EF975B98E803DEF48DFAE /* Build configuration list for PBXNativeTarget "Pods-UploadImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE46654B263FC0502569D3F59F552AC /* Debug */,
+				E5D7BCC3717FB2485AF73D5203466892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

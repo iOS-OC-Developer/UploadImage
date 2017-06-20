@@ -1,0 +1,12 @@
+PODS:
+  - ZYQAssetPickerController (1.2.0)
+
+DEPENDENCIES:
+  - ZYQAssetPickerController
+
+SPEC CHECKSUMS:
+  ZYQAssetPickerController: dc692a6fb421c0dc0efcabd43eb260cfb073f7fd
+
+PODFILE CHECKSUM: d81361d7014be7c838935b4e5849e69ff58f023c
+
+COCOAPODS: 1.2.0
